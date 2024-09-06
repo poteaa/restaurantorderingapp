@@ -1,0 +1,13 @@
+
+.input-text {
+    width: 100%;
+    font-family: Verdana;
+    font-size: 20px;
+    line-height: 31.12px;
+    text-align: left;
+    height: 70px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 27px;
+    box-sizing: border-box;
+}

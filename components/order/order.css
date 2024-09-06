@@ -1,0 +1,52 @@
+.order-title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.order-item-list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 0 26px 0;
+}
+
+.order-item {
+    display: flex;
+    gap: 13px;
+}
+
+.order-item-name {
+    font-size: 28px;
+}
+
+.order-item-remove {
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 24px;
+    border: 0;
+    background: var(--background);
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.order-item-total-price {
+    font-size: 20px;
+    line-height: 24px;
+    flex-grow: 10;
+    text-align: right;
+}
+
+.order-total {
+    margin-bottom: 14px;
+}
+
+.order-complete {
+    font-size: 32px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+}

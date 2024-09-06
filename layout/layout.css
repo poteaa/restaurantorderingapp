@@ -1,0 +1,51 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-gray: #9FB9D0;
+    --gray: #D2D2D2;
+    --dark-gray: #3C3C3C;
+    --green: #16DB99;
+    --yellow: #FFE83D;
+    --ligth-brown: #FCEAD4;
+    --brown: #823F0D;
+    --olive: #C8C89F;
+    --background: var(--white);
+    --btn-background: var(--green);
+    --btn-text-color: var(--white);
+    --item-x-spacing: 45px;
+    --item-y-spacing: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Smythe;
+    background: var(--background);
+}
+
+/* generic */
+
+ul {
+    list-style: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 47px;
+    background: var(--btn-background);
+    color: var(--btn-text-color);
+    font-family: Verdana;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 18px 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
